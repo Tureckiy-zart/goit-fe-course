@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Playfair Display', serif;
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 21px;
+    min-height: 100vh; 
+    background-color: rgba(25, 55, 144, 0.13);
+    background-image: url(https://images.pexels.com/photos/3326363/pexels-photo-3326363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+.page-header
+{background-color: #3a3e64;}
+
+.site-navigation a{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.site-navigation a:hover{
+    color: red;
+}
+
+
+.site-navigation-list{
+    list-style: none; }
+
+.futures-list{
+    list-style: none;
+}
+.futures-list-item h3{
+color: #2d3033;
+line-height: 17px;
+}
+.team-list{
+    list-style: none;    
+}
+.team-list-name{
+    font-size: 22px;
+    line-height: 26px;
+    color: #2d3033; 
+}
+.team-list-occupation{
+    font-size: 13px;
+    line-height: 16px;
+    color: #e84545; 
+}
+.footer-socials {
+    list-style: none;
+}
+footer{
+    background-color: #3a3e64;
+    color: #ffffff;}
+
+.page-footer a{
+    color: beige;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="ratio"].visually-hidden {
+position: absolute;
+
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
