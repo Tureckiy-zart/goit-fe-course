@@ -1,0 +1,150 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+    box-sizing: border-box;
+
+    outl ine: 1px solid #515151;
+} 
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    display: table;        
+    content: " ";
+    clear: both;
+    }
+ img{
+    display:block;
+    max-width:100%;
+    height:auto;
+    } 
+a{
+    text-decoration: none;
+}
+/* HEADER */
+.main-header{
+    height: 100px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight:200;
+}
+.logo-container{
+    float: left;
+    margin-top: 38px;
+}
+.logo-container::first-letter{
+    color:#1abc9c;
+    font-weight:700;
+     }
+.site-menue{
+    float: right;
+    width: 464px;
+    margin-top: 42px;
+    padding: 0;
+    text-transform: uppercase;
+}
+.site-menue-item{
+    float: left;
+    list-style: none;
+    font-weight: 900;
+}
+.site-menue-item:not(:last-child){
+    margin-right: 24px;
+}
+.site-menue-item a:hover,
+.site-menue-item a:focus{color: #1abc9c;
+}
+/* FEATURED */
+h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* нормально не центрировано */
+h2::after{ 
+    content:'';
+    display: block;
+    width: 164px;
+    height: 7px;
+    margin: 35px auto;
+    margin-bottom:92px;
+    background-color: #1abc9c;
+    
+}
+.products{ 
+    background-color: #515151; 
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    }
+ /* .products-item{
+    height: 322px;
+    max-width: 255px;
+ } */
+
+.products li{    
+    float: left;
+    /* display: inline-block; vertical-align: middle; */
+    background-color: #e9f0fd;
+    height: 322px; 
+    max-width: 255px;
+    padding: 30px;
+}
+.products li:not(:nth-child(4n)){  /* не каждый 4й*/
+    margin-right: 30px;
+}
+.products li:not(:nth-child(n +5)){
+    margin-bottom: 30px;
+}
+img{
+   
+/* vertical-align: middle;display: inline-block; */
+}
+
+
+/*     
+    width: 176px;   
+     height: 246px;  */
+    /* width: 255px;
+    height: 282px;  */
+
+
+
+
+/*
+.products img{
+
+     
+     width: 176px;   
+     height: 246px; 
+     padding: 20px; } */
+
+
+ .products span{     /*сделать псевдоэлементом*/
+/*    
+     color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px; 
+}
+.item-name{
+    display: inline-block;
+    width: 255px;
+    height: 40px;
+    background-color:#323232;
+}
+.item-prise{  
+
+    width: 54px;
+    height: 40px;
+    background-color:#8c8c8c;
+}  
+  */
+
