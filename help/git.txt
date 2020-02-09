@@ -1,0 +1,49 @@
+Команды GITBASH
+pwd                                       путь нахождения
+explorer .                                открыть текущую дир
+ls                                        список файлов и папок
+cd e:                                     перейти на диск е
+mkdir                                     создать дир
+claer                                     очистить констоль
+touch 1.txt                               создать файла 1.txt
+echo Hello > 1.txt                        записаьт Hello в 1.txt
+cp 1.txt 3.txt                            копировать 1 в 3 
+mv 1.txt folder1                          переместить в 
+rm 1.txt                                  удалить
+rm -rf folder1    r -рекурсия f -force    удалить пау и содержимое 
+
+1. code .                                 открыть все содержимое в VS
+2. code file.txt                          открыть файл 
+git branch                                ветка [name]  
+git branch [-d|-D] [name]                 del branch
+
+git checkout 	                          переход между ветками 
+git checkout [branch name]
+
+git checkout  -b [branch name]	          создать и перейти 
+	-b                                    перейти в новую ветку после создания 
+git checkout  [eddf02b5087b0d4a88491f75c3ee72aca17d7ce9  - хэш коммита ] - переход на бохраненный конкретный коммит
+
+git merge                                 слить ветки (
+git merge [branch name которую слить в текущую] 
+(master - 01 . master вольется ветка. вливать
+находясь в папке мастер) 
+
+
+git log --until=2019-06-05
+	--author="tureckiy"
+git log --grep"[search]" поиск по запросу в комитах
+
+
+init                                       инициировать гитхаб каталог
+
+cat [.gitconfig]                           отобразить на экран содержимое 	                                           файла
+ 
+	
+
+добавление автозаполения в гит. делать из корневого каталога cd~
+curl -0L https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+
+
+axzerk/presentations/tree/master/git-basics/cheatheets
+
