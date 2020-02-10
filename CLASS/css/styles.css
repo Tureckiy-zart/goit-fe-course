@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: blue 1px dotted; */
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+.clearfix:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+ul,
+ol{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100px;
+    height: auto;
+}
+a{text-decoration: none;}
+
+.header{
+    background-image: url("../images/header/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: #ffffff;
+    padding-top: 34px;
+    padding-bottom: 256px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .navigation {
+    font-size: 0;
+    margin-bottom: 250px;
+  }
+  
+  .navigation__list {
+    display: inline-block;
+    width: calc(100% - 95px);
+    text-align: right;
+    vertical-align: middle;
+  }
+  
+  .navigation__list-item {
+    display: inline-block;
+  }
+  
+  .navigation__list-item:not(:last-child) {
+    margin-right: 34px;
+  }
+  
+  .navigation__list-link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0.35px;
+  }
+  
+  .header__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .header__description {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 46px;
+  }
+  .header__btn {
+    display: block;
+    margin: 0 auto;
+    width: 176px;
+    height: 46px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+.navigation__list-link:hover{
+      color: rgb(255, 251, 5);}
+.navigation__list-link:focus{
+          color: tomato;
+      }
