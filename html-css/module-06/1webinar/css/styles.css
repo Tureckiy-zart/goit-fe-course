@@ -1,0 +1,94 @@
+.container {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  background-color: rgb(110, 5, 5);
+}
+body {
+  background-color: hotpink;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  color: antiquewhite;
+  text-align: center;
+}
+
+.flex-container {
+  width: 1000px;
+  /* height: 400px; */
+  padding: 50px 20px;
+  border: 2px solid gray;
+  margin: auto;
+  font-size: 25px;
+  /* line-height: 100px; */
+
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-around; */
+  /* align-content: stretch; */
+  /* flex-flow: wrap; */
+  /* flex-grow: 1; */
+}
+.flex-cild {
+  display: flex;
+  flex-basis: 500px;
+  background-color: skyblue;
+  width: 150px;
+  flex-grow: 1;
+  /* text-align: center; */
+  height: 100px;
+  bborder: 1px silver solid;
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  align-items: center;
+  /* min-height: 100px; */
+}
+.flex-cild p {
+}
+.flex-cild:nth-child(1) {
+  /* order: 2; */
+  background-color: rgb(66, 110, 66);
+}
+
+.flex-cild:nth-child(2) {
+  /* align-self: flex-start; */
+  flex-grow: 3;
+  background-color: rgb(27, 75, 179);
+}
+
+.flex-cild:nth-child(3) {
+  /* align-self: flex-end; */
+  flex-shrink: 0;
+  background-color: rgb(90, 7, 76);
+}
+
+.flex-cild:nth-child(4) {
+  flex-grow: 2;
+  background-color: rgb(93, 92, 24);
+}
+.flex-cild:nth-child(5) {
+  align-self: center;
+  flex-grow: 3;
+  background-color: rgb(87, 28, 121);
+}
+.flex-cild:nth-child(10) {
+  align-self: flex-end;
+  flex-grow: 2;
+  background-color: rgb(87, 28, 121);
+}
