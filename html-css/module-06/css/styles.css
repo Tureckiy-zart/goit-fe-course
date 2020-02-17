@@ -169,19 +169,23 @@ body {
      background-image: url("/img/potoduct-item/ALARM.png");
    } */
    .products-list-item::before{
-     content: "";
-     background-image: url("/img/potoduct-item/ALARM.png");
-     display: block;
-     width: 32px;
-     height: 32px;
-     position: absolute;
-     left: 25px;
-     background-repeat: no-repeat;
-   }
-
-
-
-
+     /* background-image: url("img/potoduct-item/ALARM.png"); */
+     /* background-image: url("img/potoduct-item/ALARM.png"); */
+     /* background-image: url("/img/potoduct-item/ALARM.png"); */
+     /* background-image: url('/img/potoduct-item/ALARM.png'); */
+     /* background-image: url(img/potoduct-item/ALARM.png); */
+     /* background-image: url(/img/potoduct-item/ALARM.png); */
+     
+      content: "";
+      background-image: url("/img/potoduct-item/ALARM.png");
+      display: block;
+      width: 32px;
+      height: 32px;
+      background-color: darkviolet;
+      position: absolute;
+      left: 25px;
+      background-repeat: no-repeat;
+    }
 
 
 .products-list-item:nth-child(-n+3){
@@ -263,16 +267,16 @@ justify-content: center;
   border: 1px rgba(0, 0, 0, 0.1) solid;
 }
 .facebook{
-  background-image: url("/img/socials/facebook.png");
+  background-image: url("img/socials/facebook.png");
 }
 .twitter{
-background-image: url("/img/socials/twitter.png");
+background-image: url("img/socials/twitter.png");
 }
 .pinterest{
-background-image: url("/img/socials/pinterest.png");
+background-image: url("img/socials/pinterest.png");
 }
 .instagram{
-background-image: url("/img/socials/instagram.png");
+background-image: url("img/socials/instagram.png");
 }
 
 .team-name{
