@@ -1,0 +1,238 @@
+:root{
+  --color-decor: #fed136;
+  --color-titles:#222222;
+  --color-texts: #666666;
+  --color-header: #ffffff;
+  --color-border: #ff4e50;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid var(--color-texts); */
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+/* a:focus{
+  color: blueviolet;
+} */
+
+ul,
+ol {
+  list-style: none;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="ratio"].visually-hidden {
+  position: absolute;
+  
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.diyplay{
+  display: none; /*убрать из потока и скрыть с сайта */
+  opacity: 0;
+  visibility: hidden; /*скрыть видимость с сайта юоставить в потоке */
+}
+body {
+  color: var(--color-texts);
+  font-family: "Montserrat";
+  /* background-color: var(--color-border); */
+
+}
+
+
+/* @media (min-width:48rem)
+{
+
+} */
+/* 1 пачка в 3 дня
+10  пачек феты в месяц
+250грм = 50грн
+2500 грам фкты в месяц
+50*10=500 грн мес
+
+молоко 
+2,5литра молока = 410 гр феты
+2500 гр = х 6,1 по 2.5 литра = 15 литров момлка
+
+1л молока = 30 грн
+15*30=450 грн
++35 грн
+2 
+487грн 
+НГгг
+*/
+.site-header {
+  color: var(--color-header);
+  background-image: url("../img/images/Mobile-header-fon_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+.site-menue{
+  display: flex;
+  justify-content: center;
+
+}
+.header-naviagtion{
+  width: 100%;
+  min-height: 36px;
+  margin-bottom: 128px;
+}
+
+.site-menu-item{
+
+}
+.site-menu-item:nth-child(1){
+    padding-right: 40px;
+}
+.site-menu-item-link{
+
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  padding:0.5rem;
+  color: var(--color-header);
+  }
+  .site-menu-item-link:hover{
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+  }
+
+  .header-title{
+    color: var(--color-header);
+    text-align: center;
+    font-weight: bold;
+  }
+  .logo{
+    text-transform: uppercase;
+    margin-bottom: 2.125rem;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    color: var(--color-header);
+                  /* letter-spacing: ; */
+                  }
+.header-title-list:nth-of-type(2){
+  text-transform: uppercase;
+  /* letter-spacing: 1.5; */
+  margin-bottom: 0.875rem;
+  padding: 0rem  0.875rem;
+  font-size: 1.875rem;
+  line-height: 36px;
+/* letter-spacing: ; */
+}
+.header-title-list:nth-of-type(3){
+  padding: 0px  40px;
+/* letter-spacing: ; */ 
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+.header-title-list:nth-of-type(4){
+  /* letter-spacing: ; */ 
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.header-btn{
+  margin-bottom: 8.625rem;
+  }
+  .btn{
+    background-color:var(--color-border) ;
+    border-radius: 20px;
+    padding: 10px  48px;
+    border-style:none;
+    color: var(--color-header);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+  }
+/* Style for "Find your" */
+
+  /* Style for "Sign up" */
+  /* Style for "Rectangle" */
+
+/* {
+  padding-right: 40px;padding: 40px;
+  margin: 40px;
+
+background-color: var(--color-titles);
+} */
+
+
+
+/* comand */
+.site-main{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.partners-list-item{
+  margin: 0 auto;
+  }
+  .partners{
+    text-align: center;
+  }
+  .partners-text-main{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+.partners-photo{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.partners-title{
+font-size: 14px;
+margin-bottom: 20px;
+}
+  .partners-text{
+    line-height: 16px;
+    line-height: 18px;
+    padding: 0px  35px;
+    margin-bottom: 28px;
+    color: var(--color-texts);
+    font-weight: 300;
+  }
+  .main-btn-wrapper{
+
+  }
+ .main-btn{
+   margin: 0px auto;
+    padding: 12px 74px;
+    font-weight: normal;
+    border: 2px solid var(--color-border);
+    border-radius: 25px;
+    color: var(--color-border);
+    background-color: var(--color-header);
+    /* padding: 0px 5px; */
+  }
