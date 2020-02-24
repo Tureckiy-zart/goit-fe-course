@@ -94,6 +94,7 @@ main h2 {
   padding: 0;
 }
 .products-item{
+  font-family:'Open Sans', sans-serif;
   font-weight: 600;
   float: left;
   position: relative;
@@ -108,11 +109,13 @@ main h2 {
   margin-bottom: 30px;
 }
 .item-name {
+
   position: absolute; /* Абсолютное позиционирование */
   bottom: 0px; /* Положение от нижнего края */
   left: 0px;
   width: 201px;
   height: 40px;
+  font-weight: 600;
   padding: 12px;
   color: #ffffff;
   text-transform: uppercase;
@@ -140,6 +143,7 @@ main h2 {
 /* lastest news */
 .lastest-news {
   padding: 0;
+  margin-bottom: 50px;
 }
 .news-list li {
   float: left;
@@ -169,12 +173,14 @@ main h2 {
   width: 136px;
   height: 3px;
   background-color: #1abc9c;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 30px;
 }
 .news-list p {
   font-size: 14px;
   font-weight: 500;
   line-height: 26px;
+  margin-bottom: 18px;
 }
 .learn-more-button {
   display: block;
