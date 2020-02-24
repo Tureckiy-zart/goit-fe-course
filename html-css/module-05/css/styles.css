@@ -47,11 +47,12 @@ input[type="ratio"].visually-hidden {
   overflow: hidden;
 }
 /* HEADER */
-.main-header {
+
+.header {
   padding-top: 32px;
   margin-bottom: 32px;
 }
-.stie-navigation {
+.navigation {
 }
 .logo {
   float: left;
@@ -64,42 +65,45 @@ input[type="ratio"].visually-hidden {
   color: #1abc9c;
   font-weight: 700;
 }
-.site-menue {
+.navigation__list {
   float: right;
   padding-top: 12px;
   text-transform: uppercase;
   vertical-align: middle;
   color: #515151;
 }
-.site-menue-item {
+.navigation__item {
   float: left;
   font-weight: 900;
 }
-.site-menue-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 24px;
 }
-.site-menue-item a {
+.navigation__link {
   font-size: 14px;
   font-weight: bold;
   color: #515151;
 }
-.site-menue-item a:hover,
-.site-menue-item a:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: #1abc9c;
 }
 
-/* Slider */
 .main {
-  padding-bottom: 100px;
+  margin: 0;
+  padding: 0;
+  /* padding-bottom: 100px; */
   /* background-color: #e9f0fd; */
 }
 /* .slider-wrapper { */
+  /* Slider */
+
 .slider {
   position: relative;
   margin-bottom: 80px;
 }
 .slider:before {
-  backg round-color: rgba(0, 0, 0, 0.52);
+  background-color: rgba(0, 0, 0, 0.52);
   position: absolute;
   top: 0;
   left: 0;
@@ -109,9 +113,13 @@ input[type="ratio"].visually-hidden {
 }
 .slider__fon {
   margin: 0 auto;
-  height: 600px;
   width: 100%;
   object-fit: contain; /* СОХРАНЯТЬ ПРОПОРЦИИ ФОТО*/
+}
+.slider__text-wrapper {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
 }
 .slider__overlay {
   color: #ffffff;
@@ -121,11 +129,7 @@ input[type="ratio"].visually-hidden {
   transform: translate(-50%, -50%);
   width: 100%;
 }
-.slider__text-wrapper {
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-}
+
 .overlay-slider__title {
   font-size: 60px;
   font-weight: 600;
@@ -238,6 +242,7 @@ input[type="ratio"].visually-hidden {
 /* collection-overlay */
 .new-collection {
   position: relative;
+  margin-bottom: 45px;
 }
 .collection-overlay {
   position: absolute;
@@ -314,9 +319,6 @@ input[type="ratio"].visually-hidden {
 .cart::before {
   content: "\1477";
 }
-.hover-list-item {
-}
-
 /* FOOTER */
 .main-footer {
   background-color: #323232;
